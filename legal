@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TexConnect Sports Information</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+      
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-logo">
+          <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="...">
+          </a>
+        </div>
+        <ul class="navA">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="sportsthread.html">Sportsthread</a></li>
+        </ul>
+        <nav class="nav-button">
+            <a onclick="toggle_visibility('dropdown');"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a>
+        </nav>
+        <nav class="dropdown" id="dropdown">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sportsthread.html">Sportsthread</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </nav>
+      </div>
+    </nav>
+      
+      
+    <div class="jumbotron-careers">
+      <div class="container">
+          <div class="jumbo-left">
+              <div class="contact-section">
+                  <h1>Join the Texconnect team!</h1>
+                  <p class="contact-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur id nulla elementum posuere. Sed egestas congue mauris in aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur id nulla elementum posuere. Sed egestas congue mauris in aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur id nulla elementum posuere. Sed egestas congue mauris in aliquet.</p>
+              <div class="contact-info">
+                  <p class="contact-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>zaevetts@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+          <div class="container">
+            <ul class="navB">
+              <li><a href="faq.html">FAQ's</a></li>
+              <li><a href="index.html">|</a></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li><a href="index.html">|</a></li>
+              <li><a href="legal.html">Legal</a></li>
+              <a class="first-icon" href="index.html">
+                <img src="img/Facebook.svg" alt="...">
+              </a>
+              <a href="index.html">
+                <img src="img/Twitter.svg" alt="...">
+              </a>
+              <a href="index.html">
+                <img src="img/Linkedin.svg" alt="...">
+              </a>
+            </ul>
+            <p>This article was created by and is owned by Leaf Group Ltd., its subsidiaries,       affiliates, or contractors ("Leaf Group Ltd.") and do not necessarily reflect the views or opinions of LegalZoom. Nothing stated or implied in this article should be construed to be legal, tax, or professional advice.</p>
+          </div>
+      </div>
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+            function toggle_visibility(id) {
+               var e = document.getElementById(id);
+               if(e.style.display == 'block')
+                  e.style.display = 'none';
+               else
+                  e.style.display = 'block';
+            }
+        </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

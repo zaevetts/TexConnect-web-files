@@ -1,0 +1,1602 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #162975;
+    overflow: auto;
+    height: 100%;
+}
+
+
+/************************* LARGE DESKTOP 1200 *************************/
+
+
+/***************/
+/***HOME PAGE***/
+/***************/
+
+
+/***HEADER***/
+
+.navbar {
+    width: 100%;
+    background: linear-gradient(white , whitesmoke);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+    z-index: 1;
+}
+
+.navbar-logo {
+    float: left;
+    width: 15%;
+    margin-top: 8px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-logo img{
+    float: left;
+    width: 100%;
+    margin: 0;
+    clear: right;
+}
+
+.navA {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navA li {
+    float: right;
+}
+
+.navA a {
+    display:block;
+    margin: 0px;
+    color: darkgray;
+    background-color: #eee;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.navA a:hover {
+    color: #fff;
+    background-color: darkgray;
+    transition: background .2s ease-in-out;
+}
+
+.navA .current, .navA .current:hover {
+    color: white;
+    background-color: #cc0000;
+}
+
+.nav-button, .dropdown {
+    display: none;
+}
+
+#dropdown {
+    display: none;
+}
+
+/***BODY: JUMBOTRON***/
+
+.jumbotron, .jumbotron-sportsthread {
+    position: relative;
+    background: #fff url("heroE.jpg") top -70px center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 75px 0px 0px 0px;
+    margin: 0px;
+}
+
+.jumbo-left {
+    max-width: 58%;
+    float: left;
+}
+
+.hero-text {
+    max-width: 90%;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron h1, .jumbo-center h1 {
+    font-weight: 400;
+    font-size: 45px;
+    width: 100%;
+    padding: 30px 30px 5px 30px;
+    margin-bottom: 0;
+    color: whitesmoke;
+    background-color: rgba(22, 41, 117, 0.9);
+    text-shadow: 5px 5px 5px #04264b;
+    clear: right;
+}
+
+.jumbotron h1 span, .jumbotron-sportsthread h1 span {
+    font-weight: 700;
+    color: #cc0000;
+}
+
+.subtext, .subtext-about, .contact-text {
+    width: 100%;
+    font-weight: 300;
+    padding: 10px 30px 30px 30px;
+    color: whitesmoke;
+    background-color: rgba(22, 41, 117, 0.85);
+    text-shadow: 5px 5px 5px #04264b;
+    clear: right;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.btn-danger {
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background: #cc0000;
+    border:none;
+    border-radius: 5px;
+    transition: background .1s ease-in-out;
+}
+
+.btn-danger:hover {
+    background: #ee8434;
+}
+ 
+.btn-danger span {
+    margin-left: 10px;
+}
+
+.jumbo-right, .jumbo-right-thread1 {
+    max-width: 42%;
+    float: right;
+}
+
+.jumbo-right img {
+    max-width: 65%;
+    margin-left: 100px;
+    vertical-align: bottom;
+}
+
+/***BODY: THUMBNAILS***/
+
+.row {
+    background-color: #eee;
+    margin: 0;
+    padding: 50px 0px;
+}
+
+.thumbnail {
+    float: left;
+    background-color: #fff;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption {
+    padding: 10px 25px;
+}
+
+.caption h3 {
+    font-weight: 700;
+    color: #cc0000;
+}
+
+.caption p {
+    margin: 0 0 15px;
+}
+
+.btn-primary {
+    background: #162975;
+    border: none;
+    transition: background .1s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #1c77c3;
+    border: none;
+}
+
+.btn-primary span{
+    margin-left: 10px;
+}
+
+/***FOOTER***/
+
+.footer {
+    padding: 50px 0 50px 0;
+    background-color: #162975; 
+}
+
+.navB {
+    max-width: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.navB li {
+    display: inline-block;
+}
+
+.navB a {
+    font-size: 16px;
+    font-weight: 300;
+    color: lightgrey;
+    padding: 0 10px;
+}
+
+.navB a:hover {
+    text-decoration: none;
+    color: #1c77c3;
+}
+
+.footer p {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    font-size: 10px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.first-icon {
+    margin-left: 20px;
+}
+
+.footer img {
+    display: inline-block;
+    float:-right;
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+/**************/
+/***ABOUT US***/
+/**************/
+
+
+.jumbotron-about, .jumbotron-contact {
+    position: relative;
+    background: #fff url("aboutus_hero.jpg") center center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 75px 0px 100px 0px;
+    margin: 0px;
+}
+
+.jumbo-center {
+    max-width: 45%;
+}
+
+.text-container {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.jumbo-center h1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 30px 0px 0px 30px;
+}
+
+.subtext-about {
+    padding: 15px 30px 30px 30px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.sportsthread-btn {
+    text-align: center;
+}
+
+.about-contact-btn, .download-btn {
+    margin-left: 15px;
+    text-align: center;
+}
+
+
+/**************/
+/***CONTACT***/
+/**************/
+
+
+.jumbotron-contact, .jumbotron-careers, .jumbotron-legal, .jumbotron-faq {
+    background: #fff url("contact_hero.jpg") center right;
+    background-size: cover;
+    padding: 95px 0px 110px;
+}
+
+.contact-section {
+    width: 85%;
+    background-color: rgba(22, 41, 117, 0.85);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px 30px 30px;
+}
+
+.contact-section h1, .terms-section h1 {
+    margin: 0 0 15px;
+    color: #fff;
+    text-shadow: 5px 5px 5px #04264b;
+    font-weight: 700;
+}
+
+.contact-subtext {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #fff;
+    text-shadow: 5px 5px 5px #04264b;
+}
+
+.contact-info {
+    margin: 30px 0px 0px;
+}
+
+.contact-text {
+    padding: 0;
+    background-color: rgba(8, 60, 115, 0.00);
+    margin: 20px 0px; 
+    font-size: 20px;
+}
+
+.contact-info a:visited, .contact-info a:active {
+    color:#fff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #cc0000;
+    text-decoration: none;
+    transition: background .2s ease-in-out;
+}
+
+.contact-text span {
+    margin-right: 15px;
+    color: #cc0000;
+}
+
+.contact-social img {
+    width: 10%;
+    margin: 15px 30px 0 0;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/******************/
+/***SPORTSTHREAD***/
+/******************/
+
+
+.jumbotron-sportsthread {
+    background: #fff url("sportsthread_hero2.jpg") center center;
+    background-size: 175%;
+    padding-top: 25px;
+}
+
+.jumbo-left-thread1 {
+    max-width: 55%;
+    float: left;
+    padding-top: 50px;
+}
+
+.jumbo-left-thread1 h1 {
+    font-weight: 400;
+    font-size: 45px;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 30px 30px 5px 30px;
+    color: whitesmoke;
+    background-color: rgba(22, 41, 117, 0.85);
+    text-shadow: 5px 5px 5px #04264b;
+}
+
+.jumbo-right-thread1 {
+    max-width: 45%;
+    float: right;
+}
+
+.jumbo-right-thread1 img {
+    max-width: 90%;
+    float: right;
+    padding-top: 25px;
+}
+
+.profile, .scholarship {
+    max-width: 42.5%;
+}
+
+.profile img, .scholarship img {
+    float: left;
+    max-width: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-text, .scholarship-text {
+    float: right;
+    max-width: 57.5%;
+}
+
+.profile-text h1, .scholarship-text h1 {
+    font-weight: 700;
+    color: #cc0000;
+    padding: 0 10px 0 150px;
+}
+
+.profile-text p, .scholarship-text p {
+    font-size: 18px;
+    color: #686868;
+    padding: 10px 10px 0 150px;
+}
+
+.profile-steps {
+    margin-top: 30px;
+}
+
+.profile-steps p {
+    font-size: 20px;
+    color: #cc0000;
+    margin: 10px 0;
+}
+
+.profile-steps span {
+    margin-right: 15px;
+    color: #cc0000;
+}
+
+.jumbotron-sportsthread1 {
+    background: #fff url("sportsthread_hero3.jpg") center center;
+    background-size: 100%;
+    padding-top: 25px;
+}
+
+.jumbo-right-thread2 {
+    max-width: 48%;
+    float: left;
+}
+
+.jumbo-right-thread2 img {
+    max-width: 100%;
+    float: left;
+}
+
+.jumbo-left-thread2 {
+    max-width: 52%;
+    float: right;
+    padding-top: 50px;
+}
+
+.jumbo-left-thread2 h1, .jumbo-center-thread h1 {
+    font-weight: 400;
+    font-size: 36px;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 30px 30px 5px 30px;
+    color: whitesmoke;
+    background-color: rgba(22, 41, 117, 0.9);
+    text-shadow: 5px 5px 5px #04264b;
+}
+
+.jumbo-left-thread2 p, .jumbo-center-thread p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.scholarship {
+    float: right;
+}
+
+.scholarship-text {
+    float: left;
+}
+
+.scholarship-text h1 {
+    padding: 25px 30px 0;
+}
+
+.scholarship-text p {
+    padding: 10px 75px 0 30px;
+}
+
+.jumbotron-sportsthread2 {
+    background: #fff url("sportsthread_hero4.jpg") center center;
+    background-size: 110%;
+    padding: 145px 0;
+}
+
+.jumbo-center-thread {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.jumbo-center-thread h1 {
+    margin: 0;
+}
+
+.jumbo-center-thread p {
+    margin-bottom: 0px;
+}
+
+.sports-contact-btn, download-btn {
+    margin-left: 15px;
+}
+
+
+/*************/
+/***CAREERS***/
+/*************/
+
+
+.jumbotron-careers {
+    background: #fff url("heroD.jpg") top right;
+    background-size: cover;
+    padding: 95px 0px 110px;
+}
+
+
+/***********/
+/***LEGAL***/
+/***********/
+
+
+.jumbotron-legal {
+    background: #fff url("sportsthread_hero2.jpg") top center;
+    background-size: cover;
+}
+
+.jumbo-terms {
+    width: 100%;
+    color: #fff;
+    background-color: rgba(22, 41, 117, 0.85);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px 30px 30px 30px;
+}
+
+.terms-section h3 {
+    margin-top: 0px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/*********/
+/***FAQ***/
+/*********/
+
+
+.jumbotron-faq {
+    background: #fff url("faq_hero.jpg") top left;
+    background-size: 125%;
+}
+
+.jumbo-left-faq {
+    max-width: 65%;
+    float: left;
+}
+
+
+.contact-section h3, .contact-section p, .contact-section ol, .contact-section li {
+    color: #fff;
+    text-shadow: 5px 5px 5px #04264b;
+}
+
+.contact-section h3 {
+    margin-bottom: 15px;
+}
+
+.faq-h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+
+.faq-p, .faq-p2 {
+    font-size: 16px;
+}
+
+.faq-p2 {
+    margin-top: 30px;
+}
+
+
+
+/************************* SMALL DESKTOP 992 - 1199 *************************/
+
+
+@media screen and (max-width: 1199px) {
+    
+    
+/***************/
+/***HOME PAGE***/
+/***************/
+
+    
+/***HEADER***/
+
+.navbar-logo {
+    float: left;
+    width: 17%;
+    margin-top: 9px;
+}
+
+/***BODY: JUMBOTRON***/
+
+.jumbotron {
+    padding: 50px 0px 0px 0px;
+    background-size: 100%;
+}
+
+.jumbo-left {
+    max-width: 60%;
+    float: left;
+}
+
+.jumbo-right {
+    max-width: 40%;
+}
+
+.jumbo-right img {
+    max-width: 80%;
+    vertical-align: bottom;
+}
+    
+/***FOOTER***/
+    
+.footer p {
+    max-width: 55%;
+}
+
+    
+/**************/
+/***ABOUT US***/
+/**************/  
+    
+.jumbotron-about {
+    padding: 55px 0px 75px;
+}
+    
+.jumbo-center {
+    max-width: 55%;
+}
+     
+.about-contact-btn {
+    margin-left: 15px;
+    text-align: center;
+}
+    
+
+/*************/
+/***CONTACT***/
+/*************/  
+    
+    
+.jumbotron-contact {
+    padding: 75px 0px 125px;
+    background-size: 105%;
+}
+    
+.contact-info p, .contact-info a {
+     font-size: 18px;   
+}
+
+
+/******************/
+/***SPORTSTHREAD***/
+/******************/
+  
+
+.jumbotron-sportsthread {
+    padding: 0px 0px 0px 0px;     
+}
+    
+.jumbo-left-thread1 {
+    max-width: 53%;    
+}
+    
+.jumbo-left-thread1 .hero-text {
+    max-width: 100%;    
+}
+    
+.jumbo-right-thread1 {
+    max-width: 45%;    
+}
+    
+.jumbo-right-thread1 img {
+    width: 100%;
+    padding-top: 60px;
+}
+    
+.profile {
+    margin-top: 25px;    
+}
+
+.profile-text h1 {
+    margin-top: 0px;
+}
+    
+.profile-steps {
+    margin: 25px 0px;    
+}
+    
+.profile-steps p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+    
+.jumbo-left-thread2 {
+    padding-top: 15px;
+}
+    
+.jumbo-right-thread2 img {
+    padding-top: 50px;
+}
+    
+.jumbotron-sportsthread2 {
+    background: #fff url("sportsthread_hero4.jpg") bottom -5px center;
+    background-size: 150%;
+    padding: 150px 0;
+}
+    
+.scholarship-text h1 {
+    padding: 0px 30px;
+}
+
+.jumbo-center-thread {
+    max-width: 65%;
+    margin: 0 auto;
+}
+    
+.jumbotron-sportsthread2 {
+    background: #fff url("sportsthread_hero4.jpg") center center;
+    background-size: 100%;
+    padding: 100px 0;
+}
+    
+/*************/
+/***CAREERS***/
+/*************/   
+    
+
+.jumbotron-careers, .jumbotron-legal, .jumbotron-faq {
+    padding: 75px 0 125px;
+    margin: 0px;
+}
+
+    
+/***********/
+/***LEGAL***/
+/***********/ 
+    
+    
+.jumbotron-legal {
+    background: #fff url("sportsthread_hero2.jpg") center center;
+    background-size: 375%;
+}
+    
+
+/*********/
+/***FAQ***/
+/*********/
+    
+    
+.jumbotron-faq {
+    background: #fff url("faq_hero.jpg") top center;
+    background-size: 160%;
+}
+    
+}
+    
+
+/************************* LARGE TABLET 768-991 *************************/
+
+
+@media screen and (max-width: 991px) {
+    
+    
+/***************/
+/***HOME PAGE***/
+/***************/
+      
+    
+/***HEADER***/
+    
+.navbar-logo {
+    width: 20%;
+    margin-top: 12px;
+}   
+
+/***BODY: JUMBOTRON***/
+    
+.jumbotron {
+    position: relative;
+    background: #fff url("heroE.jpg") center center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 60px 0px 0px 0px;
+    margin: 0px;
+}
+    
+.jumbo-left {
+    max-width: 50%;
+    float: left;
+}
+
+.jumbotron h1, .text-container h1, .contact-section h1, .jumbo-left-thread1 h1 {
+    font-size: 32px;
+    margin: 0;
+}
+    
+.hero-text p, .text-container p, .contact-subtext {
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+.jumbo-right {
+    max-width: 50%;
+    float: left;
+}
+    
+.jumbo-right img {
+    max-width: 80%;
+    margin: 0 auto 0 60px;
+    vertical-align: bottom;
+}
+
+.btn-danger {
+    font-size: 15px;
+}
+    
+.thumbnail {
+    
+    margin-top: 10px;
+}
+    
+/***FOOTER***/
+   
+.navB {
+    max-width: 100%;
+}
+
+.footer p {
+    max-width: 70%;  
+}
+    
+    
+/**************/
+/***ABOUT US***/
+/**************/
+    
+.jumbotron-about {
+    padding: 75px 0px 25px;
+}
+ 
+.jumbo-center, contact-section {
+    max-width: 50%;
+}
+    
+.sportsthread-btn {
+   font-size: 16px;     
+}
+    
+.about-contact-btn {
+    font-size: 16px;
+    margin: 25px 0 40px 0;
+}
+    
+    
+/**************/
+/***CONTACT***/
+/**************/
+    
+
+.jumbotron-contact {
+    background: #fff url("contact_hero.jpg") center center;
+    background-size: 120%;
+    padding: 75px 0 75px;
+}
+    
+.contact-section {
+    width: 100%;
+    padding: 30px 20px 30px 30px;
+}
+    
+.contact-section h1 {
+    margin-bottom: 15px;
+    padding-right: 45px;
+}
+  
+.contact-info p, .contact-info a {
+    font-size: 16px;
+}
+    
+.contact-subtext {
+    padding-right: 20px;
+}
+    
+.contact-social img{
+    width: 40px;    
+}
+    
+
+/******************/
+/***SPORTSTHREAD***/
+/******************/
+    
+.jumbotron-sportsthread {
+    padding: 10px 0 0;
+}    
+    
+.jumbo-right-thread1 img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+  
+.profile, .profile-text {
+    max-width: 50%;    
+}
+    
+.profile img{
+    margin-top: 5px;
+}
+
+.profile-text h1 {
+    font-size: 32px;
+    margin-top: 0px;
+    padding: 0 10px 0 65px;
+}
+    
+.profile-text p {
+    font-size: 16px;
+    padding: 0px 10px 0px 65px;
+}
+    
+.profile-steps {
+    margin: 15px 0px;    
+}
+    
+.profile-steps p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+    
+.jumbo-left-thread2 {
+    max-width: 50%;
+    padding: 50px 0 0;
+    margin: 0px;
+    
+}
+    
+.jumbo-right-thread2 {
+    max-width: 50%;
+    padding-top: 50px;
+}
+    
+.jumbo-right-thread2 img {
+    width: 120%;
+    vertical-align: bottom;
+}
+    
+.scholarship-text {
+    max-width: 50%;
+}
+    
+.scholarship-text h1 {
+    padding: 0px 20px 0px 0px;
+    margin: 0;
+}
+
+.scholarship-text p {
+    padding: 15px 20px 0px 0px;
+}
+    
+.scholarship {
+    max-width: 45%;
+    padding-top: 25px;
+}
+    
+.jumbo-center-thread {
+    max-width: 80%;
+    margin: 0 auto;
+}
+    
+.jumbotron-sportsthread2 {
+    background-size: 120%;
+    padding: 100px 0;
+}
+
+.sports-contact-btn {
+    margin-left: 15px;   
+}
+    
+/*************/
+/***CAREERS***/
+/*************/
+    
+
+.jumbotron-careers, .jumbotron-legal, .jumbotron-faq {
+    padding: 75px 0;
+    margin: 0px;
+}
+
+
+.jumbotron-careers {
+    background: #fff url("heroD.jpg") top center;
+    background-size: cover;
+}
+
+
+/***********/
+/***LEGAL***/
+/***********/
+
+  
+.jumbotron-legal {
+    background: #fff url("sportsthread_hero2.jpg") center center;
+    background-size: 500%;
+}
+
+    
+/*********/
+/***FAQ***/
+/*********/
+
+
+.jumbotron-faq {
+    background: #fff url("faq_hero.jpg") top right;
+    background-size: 175%;
+}
+    
+.jumbo-left-faq {
+    max-width: 100%;
+}
+
+}
+
+
+/************************* SMALL TABLET 481-767 *************************/
+
+
+@media screen and (max-width: 767px) {
+   
+    
+/***************/
+/***HOME PAGE***/
+/***************/
+    
+    
+/***HEADER***/
+  
+.navbar-logo {
+    width: 25%;
+    vertical-align: middle;
+}
+    
+.navA {
+    display: none;
+}
+    
+.nav-button {
+    display: block;
+    float: right;
+    font-size: 25px;
+}
+    
+.nav-button span {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    font-size: 25px;
+    padding-top: px;
+    color: #cc0000; 
+}
+    
+#dropdown {
+    display:none;
+    width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+    float: right;
+    margin: 5px auto 15px;
+}
+
+.dropdown li{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    list-style: none;
+}
+
+.dropdown a{
+    display: block;
+    color: whitesmoke;
+    background-color: #162975;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+    
+.dropdown a:active {
+    color: white;
+    background-color: #cc0000;
+}
+    
+/***BODY: JUMBOTRON***/
+
+.jumbotron, .jumbotron-about {
+    padding: 50px 0 0px;
+    margin: 0px;
+}
+
+.jumbo-left {
+    max-width: 50%;
+    float: left;
+}
+
+.jumbotron h1, .text-container h1, .contact-section h1 {
+    font-size: 32px;
+    margin: 0;
+}
+    
+.hero-text p, .text-container p, .contact-subtext {
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+.jumbo-right {
+    max-width: 50%;
+    float: left;
+}
+    
+.jumbo-right img {
+    max-width: 85%;
+    margin: 0 auto 0 30px;
+    vertical-align: bottom;
+}
+
+.btn-danger {
+    font-size: 15px;
+}
+    
+/***FOOTER***/
+   
+.navB {
+    max-width: 100%;
+}
+
+.footer p {
+    max-width: 70%;  
+}
+    
+    
+/**************/
+/***ABOUT US***/
+/**************/
+ 
+    
+.sportsthread-btn {
+   font-size: 16px;     
+}
+    
+.contact-btn {
+    font-size: 16px;
+    margin: 25px 0 30px 0;
+}
+    
+    
+/**************/
+/***CONTACT***/
+/**************/
+    
+
+.jumbotron-contact {
+    background: #fff url("contact_hero.jpg") center center;
+    background-size: 120%;
+    padding: 50px 0 50px;
+}
+    
+.contact-section {
+    width: 100%;
+    padding: 30px 20px 30px 30px;
+}
+    
+.contact-section h1 {
+    margin-bottom: 15px;
+    padding-right: 45px;
+}
+  
+.contact-info p, .contact-info a {
+    font-size: 18px;
+}
+    
+.contact-subtext {
+    padding-right: 20px;
+}
+    
+.contact-social img{
+    width: 40px;    
+}
+    
+}
+    
+    
+/************************* MOBILE 480*************************/
+
+
+@media screen and (max-width: 480px) {
+    
+    
+/***************/
+/***HOME PAGE***/
+/***************/
+    
+html {
+    overflow: auto;
+    height: 100%;
+}
+    
+body {
+    padding-top: 50px;   
+}
+    
+/***HEADER***/
+    
+.navbar-default {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+}
+    
+.navbar-logo {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+    padding: 0px 0px 10px;
+}
+    
+.navA {
+    display: none;
+}
+    
+.nav-button {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    margin-top: 15px;
+    font-size: 25px;
+}
+    
+.nav-button span {
+    vertical-align: middle;
+    color: #cc0000; 
+}
+    
+#dropdown{
+    display: none;
+    width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+    float: right;
+    margin: 5px auto 15px;
+}
+
+.dropdown li{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    list-style: none;
+}
+
+
+.dropdown a{
+    display: block;
+    color: whitesmoke;
+    background-color: #cc0000;
+    font-weight: 400;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+    
+.dropdown a:active {
+    color: white;
+    background-color: #cc0000;
+}
+
+/***BODY: JUMBOTRON***/
+
+.jumbotron, .jumbotron-sportsthread, .jumbotron-sportsthread1, .jumbotron-sportsthread2 {
+    background: #fff url("heroC.jpg") center center;
+    background-size: 425%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 20px 0 0px;
+    margin: 0px;
+}
+
+.jumbo-left, .jumbo-left-thread1, .jumbo-left-thread2, .jumbo-center-thread {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 100%;
+}
+
+.jumbotron h1, .jumbo-center h1, .jumbo-left-thread1 h1, .jumbo-left-thread2 h1, .jumbo-center-thread h1 {
+    font-size: 30px;
+    line-height: 34px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 20px 5px 20px;
+}
+
+.subtext, .subtext-about, .contact-text {
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+}
+
+.hero-text p, .subtext-about p, .text-container p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-danger {
+    width: 80%;
+    font-size: 16px;
+    margin-top: 0;
+}
+ 
+.btn-danger span {
+    margin-left: 10px;
+}
+
+.jumbo-right, .jumbo-right-thread1, .jumbo-right-thread2 {
+    position: relative;
+    max-width: 100%;
+}
+
+.jumbo-right img, .jumbo-right-thread1 img, .jumbo-right-thread2 img {
+    display: block;
+    float: none;
+    max-width: 65%;
+    margin: 0 auto;
+    vertical-align: bottom;
+}
+
+/***FOOTER***/
+    
+.navB {
+    max-width: 100%;
+}
+    
+.navB a {
+    font-size: 12px;
+    padding: 0 3px;
+}
+
+.footer p {
+    max-width: 90%;
+}
+
+.first-icon {
+    margin-left: 15px;
+}
+    
+.footer img {
+    margin: 0 5px 5px 0;   
+}
+    
+    
+/**************/
+/***ABOUT US***/
+/**************/
+    
+    
+.jumbotron-about, .jumbotron-contact, .jumbotron-careers, .jumbotron-legal, .jumbotron-faq {
+    padding: 20px 0 0;
+    margin: 0px;
+    text-align: center;
+}
+
+.jumbo-center {
+    max-width: 100%;
+}
+    
+.sportsthread-btn {
+    margin-top: 15px;    
+}
+
+.about-contact-btn {
+    margin: 15px 0 45px 0;
+    text-align: center;
+}
+    
+
+/**************/
+/***CONTACT***/
+/**************/
+    
+    
+.jumbotron-contact {
+     background-size: 200%;   
+}
+  
+
+.contact-section {
+    width: 100%;
+    padding: 20px 20px 5px 20px;
+    margin: 25px 0px 40px;
+}
+
+.contact-section h1 {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0 0 15px;
+    padding-right: 0px;
+}
+    
+.contact-subtext {
+    padding-right: 0px;   
+}
+    
+.contact-info {
+    margin-bottom: 20px;
+}
+    
+.contact-text, .contact-info a {
+    padding: 0px;
+}
+    
+.contact-text span {
+    margin-right: 15px;
+}
+    
+.contact-social {
+    display: none;    
+}
+    
+    
+/******************/
+/***SPORTSTHREAD***/
+/******************/
+
+    
+.jumbotron-sportsthread {
+    background: #fff url("sportsthread_hero2.jpg") center center;
+    background-size: 400%;
+}
+    
+.jumbotron-sportsthread1 {
+    background: #fff url("sportsthread_hero3.jpg") top center;
+    background-size: 275%;
+}
+    
+.jumbotron-sportsthread2 {
+    background: #fff url("sportsthread_hero4.jpg") bottom center;
+    background-size: 200%;
+    box-shadow: 0px;
+}
+    
+.jumbotron-sportsthread2 .hero-text {
+    box-shadow: 0;   
+}
+
+.jumbo-right-thread1 img {
+    padding: 0px;
+    max-width: 90%;
+}
+    
+.profile, .scholarship {
+    display: none;
+    padding: 0px;
+}
+    
+.profile-text, .profile-steps, .scholarship-text {
+    max-width: 90%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+.profile-text h1, .scholarship-text h1 {
+    padding: 0px;
+    font-size: 30px;
+    line-height: 34px;
+}
+    
+.profile-text p, .scholarship-text p {
+    padding: 10px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+    
+.profile-steps {
+    max-width: 100%;
+    float: none;
+    margin: 20px 0 0;
+}
+
+.profile-steps p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.profile-steps span {
+    margin-left: 15px;
+}
+    
+.jumbo-left-thread2, .jumbo-right-thread2 {
+    float: none;    
+}
+    
+.jumbo-right-thread2 {
+    padding: 0px;
+}
+    
+.download-btn {
+    margin: 15px 0px 0px 0px;
+}
+    
+.sports-contact-btn {
+    margin: 15px 0px 45px 0px;
+}
+    
+.jumbotron-careers {
+    background: #fff url("careers_hero.jpg") center center;
+    background-size: cover;
+}
+
+
+/***********/
+/***LEGAL***/
+/***********/
+
+
+.jumbotron-legal {
+    background: #fff url("mobile_bkgrd.jpg") top center;
+    background-size: 175%;
+}
+    
+.jumbo-terms {
+    text-align: left;
+    margin: 25px 0 40px;
+}
+
+    
+/*********/
+/***FAQ***/
+/*********/
+
+
+.jumbotron-faq {
+    background: #fff url("mobile_bkgrd.jpg") top center;
+    background-size: 100%;
+}
+
+    
+}
